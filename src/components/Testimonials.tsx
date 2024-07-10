@@ -7,6 +7,10 @@ import {
     CardTitle,
 } from "@/components/ui/card";
 
+import logoBig1 from "@/assets/images/nobg/svg/logo-big-1.svg";
+import logoBig2 from "@/assets/images/nobg/svg/logo-big-2.svg";
+import logoBig3 from "@/assets/images/nobg/svg/logo-big-3.svg";
+
 interface TestimonialProps {
     image: string;
     name: string;
@@ -16,13 +20,13 @@ interface TestimonialProps {
 
 const testimonials: TestimonialProps[] = [
     {
-        image: "src/assets/images/nobg/svg/logo-big-1.svg",
+        image: logoBig1,
         name: "Another Name",
         userName: "@another_Name",
         comment: "This landing page is awesome!",
     },
     {
-        image: "src/assets/images/nobg/svg/logo-big-2.svg",
+        image: logoBig2,
         name: "Another Name",
         userName: "@another_Name",
         comment:
@@ -30,28 +34,28 @@ const testimonials: TestimonialProps[] = [
     },
 
     {
-        image: "src/assets/images/nobg/svg/logo-big-3.svg",
+        image: logoBig3,
         name: "Another Name",
         userName: "@another_Name",
         comment:
             "This landing page is awesome!",
     },
     {
-        image: "src/assets/images/nobg/svg/logo-big-1.svg",
+        image: logoBig1,
         name: "Another Name",
         userName: "@another_Name",
         comment:
             "This landing page is awesome!",
     },
     {
-        image: "src/assets/images/nobg/svg/logo-big-2.svg",
+        image: logoBig2,
         name: "Another Name",
         userName: "@another_Name",
         comment:
             "This landing page is awesome!",
     },
     {
-        image: "src/assets/images/nobg/svg/logo-big-3.svg",
+        image: logoBig3,
         name: "Another Name",
         userName: "@another_Name",
         comment:

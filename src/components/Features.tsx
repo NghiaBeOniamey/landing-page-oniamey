@@ -6,9 +6,10 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-// import image from "../assets/growth.png";
-// import image3 from "../assets/reflecting.png";
-// import image4 from "../assets/looking-ahead.png";
+
+import responseDesignImages from "@/assets/looking-ahead.png";
+import intuitiveUserInterface from "@/assets/reflecting.png";
+import aiPoweredInsights from "@/assets/growth.png";
 
 interface FeatureProps {
   title: string;
@@ -21,19 +22,19 @@ const features: FeatureProps[] = [
     title: "Responsive Design",
     description:
       "Ensuring Seamless Experience Across Devices.",
-    image: "src/assets/looking-ahead.png",
+    image: responseDesignImages,
   },
   {
     title: "Intuitive user interface",
     description:
       "Easy to Use, Easy to Understand.",
-    image: "src/assets/reflecting.png",
+    image: intuitiveUserInterface,
   },
   {
     title: "AI-Powered insights",
     description:
       "Intelligent Data Analysis for Actionable Understanding.",
-    image: "src/assets/growth.png",
+    image: aiPoweredInsights,
   },
 ];
 
